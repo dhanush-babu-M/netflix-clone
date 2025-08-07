@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <img src="./Images/Netflixlogo.jpg" class="logo" alt="Netflix Logo">
+            <div class="nav-right">
+                <div class="language-container" tabindex="0">
+                    <button class="language-button" id="languageToggleButton" aria-haspopup="true" aria-expanded="false" aria-label="Select Language">
+                        English <img src="./Images/down-icon.png" alt="Dropdown arrow">
+                    </button>
+                    <div class="dropdown" id="languageDropdown">
+                        <ul id="languageList" role="menu">
+                            <li role="none"><a href="#" lang="en" role="menuitem">English</a></li>
+                            <li role="none"><a href="#" lang="te" role="menuitem">Telugu</a></li>
+                            <li role="none"><a href="#" lang="hi" role="menuitem">Hindi</a></li>
+                            <li role="none"><a href="#" lang="ta" role="menuitem">Tamil</a></li>
+                            <li role="none"><a href="#" lang="kn" role="menuitem">Kannada</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Starts at ₹149. Cancel at any time.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required aria-label="Email address">
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-row-section">
+            <div class="content-row">
+                <h2>Trending Now</h2>
+                <div class="scrolling-wrapper">
+                    <div class="poster"><img src="./Images/Poster 1.jpg" alt="Trending movie poster 1"></div>
+                    <div class="poster"><img src="./Images/Poster 2.jpg" alt="Trending movie poster 2"></div>
+                    <div class="poster"><img src="./Images/Poster 3.jpg" alt="Trending movie poster 3"></div>
+                    <div class="poster"><img src="./Images/Poster 4.webp" alt="Trending movie poster 4"></div>
+                    <div class="poster"><img src="./Images/Poster 5.webp" alt="Trending movie poster 5"></div>
+                    <div class="poster"><img src="./Images/Poster 6.jpg" alt="Trending movie poster 6"></div>
+                    <div class="poster"><img src="./Images/Poster 7.jpg" alt="Trending movie poster 7"></div>
+                    <div class="poster"><img src="./Images/Poster 8.jpg" alt="Trending movie poster 8"></div>
+                </div>
+            </div>
+            <div class="content-row">
+                <h2>Popular on Netflix</h2>
+                <div class="scrolling-wrapper">
+                    <div class="poster"><img src="./Images/Poster A.jpg" alt="Popular movie poster A"></div>
+                    <div class="poster"><img src="./Images/Poster B.jpg" alt="Popular movie poster B"></div>
+                    <div class="poster"><img src="./Images/Poster C.webp" alt="Popular movie poster C"></div>
+                    <div class="poster"><img src="./Images/Poster D.jpg" alt="Popular movie poster D"></div>
+                    <div class="poster"><img src="./Images/Poster E.jpg" alt="Popular movie poster E"></div>
+                    <div class="poster"><img src="./Images/Poster F.avif" alt="Popular movie poster F"></div>
+                    <div class="poster"><img src="./Images/Poster G.jpg" alt="Popular movie poster G"></div>
+                    <div class="poster"><img src="./Images/Poster H.jpg" alt="Popular movie poster H"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="row">
+                <div class="text-col">
+                    <h2>Enjoy on your TV.</h2>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                <div class="img-col">
+                    <img src="./Images/feature-1.png" alt="TV showing Netflix content">
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-col">
+                    <img src="./Images/feature-2.png" alt="Mobile phone with Netflix content for offline viewing">
+                </div>
+                <div class="text-col">
+                    <h2>Download your shows to watch offline.</h2>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-col">
+                    <h2>Watch everywhere.</h2>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                </div>
+                <div class="img-col">
+                    <img src="./Images/feature-3.png" alt="Various devices showing Netflix content">
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-col">
+                    <img src="./Images/feature-4.png" alt="Kids watching Netflix on a tablet">
+                </div>
+                <div class="text-col">
+                    <h2>Create profiles for kids.</h2>
+                    <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="accordion">
+                <li>
+                    <button class="accordion-trigger">What is Netflix?</button>
+                    <div class="content">
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion-trigger">How much does Netflix cost?</button>
+                    <div class="content">
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion-trigger">Where can I watch?</button>
+                    <div class="content">
+                        <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion-trigger">How do I cancel?</button>
+                    <div class="content">
+                        <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion-trigger">What can I watch on Netflix?</button>
+                    <div class="content">
+                        <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion-trigger">Is Netflix good for kids?</button>
+                    <div class="content">
+                        <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want them to see.</p>
+                    </div>
+                </li>
+            </ul>
+            <small class="small-text">Ready to watch? Enter your email to create or restart your membership.</small>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required aria-label="Email address">
+                <button type="submit">Get Started</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Questions? Call 0000-0000-0000</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notice</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-language-container">
+            <button class="language-button footer-language-button">English <img src="./Images/down-icon.png" alt="Dropdown arrow"></button>
+        </div>
+        <p class="copyright-txt">Netflix India</p>
+    </footer>
+
+    <script>
+        // Immediately Invoked Function Expression (IIFE) to keep our code clean and isolated.
+        (function() {
+
+            // --- Language Dropdown ---
+            const languageToggleButton = document.getElementById('languageToggleButton');
+            const languageDropdown = document.getElementById('languageDropdown');
+            const languageContainer = document.querySelector('.language-container');
+            const languageLinks = document.querySelectorAll('#languageList a');
+
+            // Make sure all elements exist before adding listeners
+            if (languageToggleButton && languageDropdown && languageContainer && languageLinks.length > 0) {
+                const toggleDropdown = () => {
+                    const isExpanded = languageToggleButton.getAttribute('aria-expanded') === 'true';
+                    languageDropdown.classList.toggle('show');
+                    languageToggleButton.setAttribute('aria-expanded', !isExpanded);
+                };
+                
+                languageToggleButton.addEventListener('click', (event) => {
+                    event.stopPropagation();
+                    toggleDropdown();
+                });
+
+                // Close dropdown when clicking outside
+                window.addEventListener('click', (event) => {
+                    if (!languageContainer.contains(event.target) && languageDropdown.classList.contains('show')) {
+                        languageDropdown.classList.remove('show');
+                        languageToggleButton.setAttribute('aria-expanded', 'false');
+                    }
+                });
+
+                // Handle language selection
+                languageLinks.forEach(link => {
+                    link.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        const selectedLanguage = link.textContent;
+                        languageToggleButton.innerHTML = `${selectedLanguage} <img src="./Images/down-icon.png" alt="Dropdown arrow">`;
+                        toggleDropdown();
+                        languageToggleButton.focus();
+                    });
+                });
+            }
+
+            // --- FAQ Accordion ---
+            const accordionTriggers = document.querySelectorAll('.accordion-trigger');
+            
+            if (accordionTriggers.length > 0) {
+                accordionTriggers.forEach(trigger => {
+                    trigger.addEventListener('click', () => {
+                        const content = trigger.nextElementSibling;
+                        const isActive = trigger.classList.contains('active');
+
+                        // If this one is already active, close it
+                        if (isActive) {
+                            trigger.classList.remove('active');
+                            content.classList.remove('active');
+                        } else {
+                            // Otherwise, close all other active accordions and open this one
+                            document.querySelectorAll('.accordion-trigger.active').forEach(otherTrigger => {
+                                otherTrigger.classList.remove('active');
+                                otherTrigger.nextElementSibling.classList.remove('active');
+                            });
+                            trigger.classList.add('active');
+                            content.classList.add('active');
+                        }
+                    });
+                });
+            }
+
+        })();
+    </script>
+</body>
+</html>
